@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GW/app/src/main/res/layout/activity_main.xml" value="0.1105072463768116" />
+        <entry key="..\:/GW/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/GW/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/GW/app/src/main/res/layout/fragment_maps.xml" value="0.16" />
+        <entry key="..\:/GW/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
         <entry key="..\:/Users/bihic/AndroidStudioProjects/GW2/app/src/main/res/layout/activity_main.xml" value="0.22780797101449277" />
         <entry key="..\:/Users/bihic/AndroidStudioProjects/GW2/app/src/main/res/layout/fragment_dashboard.xml" value="0.22780797101449277" />
         <entry key="..\:/Users/bihic/AndroidStudioProjects/GW2/app/src/main/res/layout/fragment_historique.xml" value="0.22780797101449277" />

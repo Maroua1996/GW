@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         // home and dashboard
         // set home fragment as launcher
-        supportFragmentManager.beginTransaction().replace(R.id.nav_container,HomeFragment()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.nav_container,MapsFragment()).commit()
         // now create a menu
         val bottomNav : BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNav.setOnNavigationItemSelectedListener(bottomListener)
@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
     val bottomListener = BottomNavigationView.OnNavigationItemSelectedListener {
         // switch between ids of menu
         when(it.itemId){
-            R.id.home -> {
-                currentFragment = HomeFragment()
+            R.id.maps -> {
+                currentFragment = MapsFragment()
             }
             R.id.dashboard -> {
                 currentFragment = dashboardFragment()
